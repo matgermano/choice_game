@@ -1,0 +1,82 @@
+No Planeta Resili, havia um rei chamado Java, ele por querer entretenimento ao seu povo, criou um campeonato em chaves no Coliseu da cidade de Script. 
+Para atrair os maiores guerreiros a enfrentar seus desafios que envolviam batalhas com monstros inimagináveis e até mesmo entre os guerreiros, ofereceu aos participantes perdão incondicional por todos os crimes anteriores e tambem aos que seriam realizados na arena. 
+E mais, ao vencedor de sua competição seriam oferecidas 2 opções, podendo escolher somente uma delas: um tesouro raro e muito valioso ou um elixir para curar qualquer tipo de doença.
+O que será que te espera nessa jornada? Faça suas apostas! Escolha seu guerreiro:
+
+Guerreiro 1 : Arturo
+Arturo era um mago poderoso, porém, apesar de suas habilidades não conseguia curar sua querida filha: Fofolete.
+Fofolete sofria e uma doença desconhecida que a fazia sentir fortes dores, Arturo procurou superiores governantes para conseguir raros ingredientes que ajudariam a diminuir as dores de sua filha.
+Contudo, foi tratado com desdém e deixado de lado. Revoltado com seus governantes, usou de sua magia para conseguir forçadamente os ingredientes necessários, mas no meio do caminnho foi detido e finalmente preso por afrontar seus governantes.
+
+Guerreiro 2 : Thoman
+Thoman era um notório guerreiro, usava um grande machado e escudo impenetrável, era um decendente Viking. Com suas habilidades, se tornou um mercenário que realizava missões de grandes recompensas.
+O seu grande sonho era acabar com a pobreza de sua cidade natal: Soft. Logo, toda rercompensa arrecadada em suas missões eram destinadas ao povoado de sua querida cidade.
+Porém, por causa da inveja de outros mercenários pela fama que Thoman havia conseguido, foi forjado um crime que Thoman não havia cometido, conseguindo assim prender injustamente Thoman, impedindo-o de continuar suas missões.
+
+Guerreiro 3 : Tessete
+Tessete era um ser híbrido, metade humanoide, metade polvo. Era um monstro poderoso, mas apesar de tudo, ele não tinha dimensão de seu potencial.
+Desde de sua infância, Tessete sofria rejeições de todos os lados por ser uma criatura diferente, não era aceito nem mesmo por sua família.
+Por não ter nenhum laço afetivo, desconhecia de seus poderes, não tinha uma personalidade consolidada, e estava em busca de atenção de todos a sua volta.
+Infelizmente, por desconhecer seus poderes, desastrado que era, sem intenção ateou fogo na estatua dos herois de sua cidade, chamando atenção negativa para si, sendo preso por crime contra o patrimonio de sua cidade.
+
+
+Chave 1:
+Você deseja treinar antes de começar a lendária batalha do Coliseu Script? (Sim/Nao)
+Se "Sim" escolha seu armamento: (Cajado Mágico/Machado e Escudo/Nenhum)
+Se "Não" escolha seu armamento: (Cajado Mágico/Machado e Escudo/Nenhum)
+//Nessa opção tanto Arturo quanto Thoman não precisam de treinamento, podem prosseguir pra sua batalha e vão vencer mas só se escolhidas as armas certas pra eles mas se Tessete não treinar, já é game over de cara e ele não precisa de armamento, só não pode escolher o cajado porque afetará na sua propria habilidade.
+//Em casos de Game Over, explicar o motivo por alert.
+
+Chave 2: 
+Chegou sua primeira batalha! Enfrente o monstro Hatemele, é uma espécime de Gigante Ciclope.
+I)Ataque-o diretamente: Sim/Não
+Se "sim': Game over. // Explicar pelo alert que não se deve atacar um gigante diretamente, a força é desproporcional, tem que ter estatégia para vencê-lo.
+Se "não": Proxima etapa.
+II) Boa defesa e paciência guerreiro! Agora rapidamente ataque-o nos pés:
+Se "sim": Próxima etapa.
+Se "não": Próxima etapa.
+III) Excelente, você é realmente habilidoso! Por fim ataque com força total nos olhos:
+Se "sim": Próxima etapa. // Porém caso anteriormente tenha escolhido a opção não é Game Over, abrir o alert dizendo que para chegar aos olhos é preciso atacar os pés.
+Se "não": Game Over. // Alert avisando que os olhos são a principal fraqueza do Hatemele, logo, como não o atacou no momento certo ele se recuperou e te matou.
+
+Chave 3: 
+Parabéns Guerreiro, você alcançou sua primeira vitória!
+Qual das opções você deseja realizar agora: Comemorar; Descansar; Treinar duro.
+Finalmente chegou seu segundo dia de batalha! Seu oponente será o poderoso dragão Guite!
+//Caso você tenha escolhido qualquer opção diferente de descansar, Game Over só de começar o duelo.
+// Explicar no alert que você deveria estar descansado para conseguir enfrentar uma batalha decisiva.
+O que fazer? Opções: Agarrar em suas costas(3)/Escalar em volta do dragão (4)/ Perfurar seu coração(5)/ Corr)er em volta do dragão (2)/ Se proteger do fogo. (1)
+// Seguir a ordem dos numeros, qualquer ordem diferente é game over. Explicar no alert que existe uma ordem correta para o ataque.
+
+Chave 4:
+Parabéns! Você chegou no estágio final! É o seu momento!!!
+Conheça um dos guerreiros: Opções (Thoman, Arturo ou Tessete).
+//essa opção é um macete para zerar o jogo mais rápido, caso sua escolha de guerreiro no início tenha sido o tessete, e escolhendo ele de novo parecendo repetição, na real é a chave do tessete se autoconhecer, se tornando autosuficiente que é o objetivo final desse personagem.
+// alerta com a mensagem: Você destravou o master key, fez o tessete se conhecer, conseguiu ZERAR O JOGO! Recomece com outro personagem, parabéns seu GENIO!
+
+Chave 5:
+Depois de uma resenha e devido descanso, chegou o grande momento: a batalha final!
+De todos participantes, somente 3 guerreiros chegaram até aqui: Arturo o mago; Thoman o guerreiro; Tessete o grande!
+O oponete final é o filho do rei Java, Príncipe Andrews, conhecido como o princípe misterioso, rezam lendas que ele carrega consigo um segredo oculto, jamais revelado.
+Nessa batalha você deseja se unir com outros guerreiros?
+Se sim é destravado 3 poderes magia, habilidade de batalha com armas e força descomunal.
+Se não você possui somente o poder de seu personagem escolhido.
+//Como para derrotar o principe Andrews precisa dos 3 poderes, alert game over.
+
+Chave 6:
+Você finalmente derrotou o maior dos guerreiros do reino de Java, a arena Script está vibrando pela morte do principe Andrews.
+Você vai matá-lo?
+Se sim, você passa de fase.
+Se não, ao poupá-lo recebe um alert com o segredo revelado dele: "... ajudem com sugestoes kkkk" e passa de fase.
+
+Chave 7:
+Finalmente chegou na premiação, vocês 3 guerreiros foram campeões! Parabéns!
+Mas temos um problema: Só há 2 premiações, um dos campeões ficará sem premio algum.
+Vocês querem disputar entre si esse premio?
+Se sim, game over, você morre na disputa.
+Se não, PARABÉNS! VOCÊ ZEROU O JOGO:
+
+Alert: Arturo ficou com a poção, conseguiu curar sua filha e ser feliz com ela. Thoman ficou com o tesouro, salvou sua terra natal da pobreza.
+E sim, Tessete ficou sem nada aparentemente, mas nesse processo, ele descobriu seus poderes e entendeu quem ele era. Voltou pra sua cidade como um vencedor e melhor que isso, nunca mais se preocupou com a visão dos outros sobre ele, pois ele mesmo sabia de sua identidade.
+
+FIM
