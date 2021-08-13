@@ -1,56 +1,68 @@
 body{
-    background-color:rgb(38, 121, 194) ;
-    text-align: center;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1574024073167-PRLTM8P9IEOI4Q6EZQYO/Desert.gif?format=750w");
+text-align: center;
+background:linear-gradient(
+    rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.767)),url("https://images.squarespace-cdn.com/content/v1/5005d21ac4aa55eb76ab5f3b/1367443434886-3ROHW2VFOLXXRC8D1RJP/demDJGva.gif?format=1000w");
 }
 
-.container{
-    background-color: #ffe5e500;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    border: none;
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color:black;
-    color: black;
-
+.titulo{
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: rgb(160, 31, 31);
+    color: aliceblue;
 }
 
-.personagem{
-    background-color: darkorchid;
-    width: 25%;
-    border-radius: 3%;
-    box-shadow: 1px 1px 10px 4px black;
-}
-
-img{
+fieldset{
     background-color: black;
-    transition: 0.2s;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 20%;
+    border: none;
+    display: flex;
+    align-content: center;
 }
 
-img:hover{
-    background-color: rgba(0, 0, 0, 0.877);
-    height: 220px;
-    width: 220px;
-    transition-duration: 0.1s;
+.texto{
+    display: flex;
+    align-content: center;
+    background-color: rgb(160, 31, 31);
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    color: aliceblue;
+    box-shadow: 1px 1px 10px 10px silver;
+    transition: 0.04s;
+}
+
+.texto:hover{
+    font-size: 115%;
+    padding-bottom: 3%;
+    width: 100%;
+    transition-duration: 0.04s;
     transition-timing-function: ease-in-out;
     cursor: pointer;
 }
 
 footer{
+    background-color: cornsilk;
     position: absolute;
+    bottom: 0%;
     text-align: center;
-    color: black;
+    color:rgb(160, 31, 31);
     -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: rgba(169, 169, 169, 0.849);
+    -webkit-text-stroke-color: black;
     width: 100%;
 }
 
 footer:hover{
-    color: darkorchid;
+    color: darkblue;
     transition: 0.6s;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+@media (max-width: 700px){
+    fieldset{
+        max-width: 700px;
+        max-height: 700px;
+    }
+    footer{
+        position: absolute;
+        bottom: 0%;
+    }
 }
