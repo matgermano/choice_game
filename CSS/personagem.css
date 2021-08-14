@@ -55,16 +55,21 @@ footer{
     position: absolute;
     text-align: center;
     color: aliceblue;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(192, 192, 192, 0.76);
-    width: 100%;
-}
-
-footer:hover{
-    color: darkorchid;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
-    transition: 0.6s;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(192, 192, 192, 0.76);
+        width: 100%;
+    }
+    
+    footer:hover{
+        color: darkorchid;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+        transition: 0.6s;
+    }
+    
+.link:hover{
+    transition: 0.3s;
+    color: aliceblue;
 }
 
 @media (max-width: 700px){
