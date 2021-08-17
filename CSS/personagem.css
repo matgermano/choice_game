@@ -56,16 +56,21 @@ footer{
     text-align: center;
     color: aliceblue;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgba(192, 192, 192, 0.76);
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.76);
         width: 100%;
+    transition: 0.6s;    
     }
     
     footer:hover{
         color: darkorchid;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+        -webkit-text-stroke-color: rgba(240, 248, 255, 0.356);
         transition: 0.6s;
     }
+
+.link{
+    transition: 0.3s;
+}    
     
 .link:hover{
     transition: 0.3s;

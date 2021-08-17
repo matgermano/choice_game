@@ -44,8 +44,8 @@ fieldset{
 
 img{
     transition: 0.6s;
-    height: 400px;
-    width: 900px;
+    height: 300px;
+    width: 500px;
     object-fit: cover;
     border-radius: 20%;
 }
@@ -55,6 +55,47 @@ img:hover{
    transition: 0.6s;
 }
 
+.buttom {
+    background: goldenrod;
+    background-image: -webkit-linear-gradient(top, goldenrod, rgb(223, 181, 75));
+    background-image: -moz-linear-gradient(top, rgb(224, 173, 43), goldenrod);
+    background-image: -ms-linear-gradient(top, rgb(224, 172, 39), goldenrod);
+    background-image: -o-linear-gradient(top, rgb(211, 163, 41), goldenrod);
+    background-image: -webkit-gradient(bottom, rgb(207, 160, 39), goldenrod);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family:sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 25px;
+    -webkit-box-shadow: 8px 5px 19px 0 #FFFFFF;
+    -moz-box-shadow: 8px 5px 19px 0 #FFFFFF;
+    box-shadow: 8px 5px 19px 0 #FFFFFF;
+    text-shadow: 2px 1px 6px #FFFFFF;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.8s;
+ }
+ 
+ .buttom:hover {
+    border: solid #FFFFFF 1px;
+    background: #F63D3D;
+    background-image: -webkit-linear-gradient(top, orangered, rgba(248, 89, 32, 0.897));
+    background-image: -moz-linear-gradient(top, rgb(253, 109, 56), rgb(247, 129, 86));
+    background-image: -ms-linear-gradient(top, orangered, rgb(252, 110, 58));
+    background-image: -o-linear-gradient(top, orangered, rgb(241, 123, 80));
+    background-image: -webkit-gradient(bottom, orangered, rgb(253, 133, 89));
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.8s;
+ }
 
 footer{
     background-color: cornsilk;
