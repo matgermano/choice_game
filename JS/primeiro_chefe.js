@@ -7,7 +7,7 @@ function inicio() {
     return location = ('../html/ultimo_chefe.html');
 
   } else {
-    alert('Você tem que saber como matar um ciclope, um erro pequeno ocasionou sua morte, tente novamente.')
+    alert('Você tem que saber como matar um ciclope, um erro pequeno ocasionou sua morte, use a ordem correta na próxima...')
     return location = ('../html/game_over.html')
   }
 }

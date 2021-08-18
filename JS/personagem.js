@@ -10,5 +10,6 @@ function inicio() {
     return location = ('../html/tessete.html')
   } else {
     alert('Escolha Inválida')
+    inicio()
   }
 }
