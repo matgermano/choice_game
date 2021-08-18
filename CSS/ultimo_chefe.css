@@ -1,30 +1,30 @@
-body{
+body {
     background-image: url(https://media2.giphy.com/media/pvl3qUsgblNOo/giphy.gif?cid=ecf05e47ia6fhpk5v747jyuj1ug0g5048b9g4b6sfrzzxood&rid=giphy.gif&ct=g);
     text-align: center;
 }
 
-.titulo{
+.titulo {
     background-color: black;
     -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: rgba(255, 248, 220, 0.795);
     color: orangered;
 }
 
-fieldset{
+fieldset {
     padding-top: 0;
     border: none;
     background-color: rgba(0, 0, 0, 0.521);
     border: none;
     display: flex;
     align-content: center;
-    width: 100%;
+    width: fit-content;
 }
 
 
-.texto{
+.texto {
     display: flex;
     align-content: center;
-    background-color:rgb(218, 165, 32);
+    background-color: rgb(218, 165, 32);
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     color: bl;
@@ -32,7 +32,7 @@ fieldset{
     transition: 1s;
 }
 
-.texto:hover{
+.texto:hover {
     background-color: orangered;
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgba(240, 248, 255, 0.356);
@@ -42,7 +42,7 @@ fieldset{
     cursor: pointer;
 }
 
-img{
+img {
     transition: 0.6s;
     height: 300px;
     width: 500px;
@@ -50,9 +50,9 @@ img{
     border-radius: 20%;
 }
 
-img:hover{
-   width: 1100px;
-   transition: 0.6s;
+img:hover {
+    width: 1100px;
+    transition: 0.6s;
 }
 
 .buttom {
@@ -66,7 +66,7 @@ img:hover{
     -moz-border-radius: 20px;
     border-radius: 20px;
     color: #FFFFFF;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 13px;
     font-weight: 100;
     padding: 25px;
@@ -80,9 +80,9 @@ img:hover{
     cursor: pointer;
     text-align: center;
     transition: 0.8s;
- }
- 
- .buttom:hover {
+}
+
+.buttom:hover {
     border: solid #FFFFFF 1px;
     background: #F63D3D;
     background-image: -webkit-linear-gradient(top, orangered, rgba(248, 89, 32, 0.897));
@@ -95,33 +95,34 @@ img:hover{
     border-radius: 20px;
     text-decoration: none;
     transition: 0.8s;
- }
+}
 
-footer{
+footer {
     background-color: cornsilk;
     position: absolute;
     bottom: 0%;
     text-align: center;
-    color:rgb(160, 31, 31);
+    color: rgb(160, 31, 31);
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: black;
     width: 100%;
 }
 
-footer:hover{
+footer:hover {
     color: darkblue;
     transition: 0.6s;
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: black;
-    
+
 }
 
-@media (max-width: 700px){
-    fieldset{
+@media (max-width: 700px) {
+    fieldset {
         max-width: 700px;
         max-height: 700px;
     }
-    footer{
+
+    footer {
         position: absolute;
         bottom: 0%;
     }

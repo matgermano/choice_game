@@ -1,55 +1,28 @@
 body {
-    background-image: url(https://64.media.tumblr.com/52aa2c9dc6af04251787630d22219a38/tumblr_oxrn69zlEW1sjyaa7o1_640.gifv);
     text-align: center;
+    background: url("https://cdna.artstation.com/p/assets/images/images/015/322/322/original/boris-van-der-beek-treasureopenclose.gif?1547920690");
 }
 
-.titulo {
-    -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: rgb(160, 31, 31);
+h1 {
     color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(192, 192, 192, 0.76);
 }
 
-.container {
-    padding-top: 0;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.521);
-    border: none;
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5%;
+    width: 20%;
+    margin: 0 auto;
 }
 
-.personagem{
-    overflow: hidden;
-}
-
-
-.texto {
-    background-color: rgba(0, 0, 0, 0.76);
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: rgba(240, 248, 255, 0.295);
-    color: aliceblue;
-    box-shadow: 1px 1px 10px 10px silver;
-    transition: 1s;
-}
-
-.texto:hover {
-    background-color: #0d5a6bb9;
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: rgba(240, 248, 255, 0.356);
+h4 {
     color: cornsilk;
-    transition-duration: 0.7s;
-    transition-timing-function: ease-in-out;
-    cursor: pointer;
-}
-
-img {
-    transition: 0.6s;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 100%;
-}
-
-img:hover {
-    width: 1500px;
-    transition: 0.6s;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgba(251, 203, 9, 0.596);
 }
 
 .buttom {
@@ -111,18 +84,11 @@ footer:hover {
 
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
+@media (max-width: 700px) {
+
 
     footer {
-       position: initial;
-    }
-}
-@media (min-width:769px) {
-    img{
-        width: 700px;
-        height: 300px;
+        position: absolute;
+        bottom: 0%;
     }
 }
