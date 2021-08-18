@@ -1,3 +1,3 @@
 setTimeout(function () {
-    return location = ('../html/game_over.html');
+    return location = ('./game_over.html');
 }, 35000);

@@ -10,10 +10,10 @@ function inicio() {
   }
   if (escolha == 7 || escolha == 4) {
     alert('Você é imbatível! Venceu Prince e descobriu todos seus segredos! Venha, chegou o momento de escolher seu prêmio junto de seus amigos!')
-    return location = ('../html/premio.html');
+    return location = ('./premio.html');
 
   } else {
     alert('Você errou, Prince não perdoa erros, e te derrotou com seus poderes misteriosos.')
-    return location = ('../html/game_over.html')
+    return location = ('./game_over.html')
   }
 }
