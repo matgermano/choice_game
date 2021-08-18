@@ -94,7 +94,8 @@ footer:hover {
     }
 
     footer {
-        position: absolute;
-        padding-bottom: 0%;
+        
+       position: initial;
+        
     }
 }

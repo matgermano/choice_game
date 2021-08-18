@@ -10,12 +10,9 @@ h1 {
 }
 
 fieldset {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    padding: 5%;
-    width: 20%;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    width: 38%;
     margin: 0 auto;
 }
 
@@ -85,7 +82,18 @@ footer:hover {
 }
 
 @media (max-width: 700px) {
-
+    fieldset {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        -webkit-text-stroke-width: 0.4px;
+        -webkit-text-stroke-color: rgba(0, 0, 0, 0.479);
+        padding: 5%;
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 20%;
+    }
 
     footer {
         position: absolute;

@@ -10,20 +10,14 @@ body {
     color: orangered;
 }
 
-fieldset {
-    padding-top: 0;
+.container {
+    width: 100%;
     border: none;
     background-color: rgba(0, 0, 0, 0.521);
     border: none;
-    display: flex;
-    align-content: center;
-    width: fit-content;
 }
 
-
 .texto {
-    display: flex;
-    align-content: center;
     background-color: rgb(218, 165, 32);
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
@@ -43,16 +37,9 @@ fieldset {
 }
 
 img {
-    transition: 0.6s;
-    height: 300px;
+    transition: 0.8s;
     width: 500px;
     object-fit: cover;
-    border-radius: 20%;
-}
-
-img:hover {
-    width: 1100px;
-    transition: 0.6s;
 }
 
 .buttom {
@@ -116,14 +103,18 @@ footer:hover {
 
 }
 
-@media (max-width: 700px) {
-    fieldset {
-        max-width: 700px;
-        max-height: 700px;
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
     }
 
     footer {
-        position: absolute;
-        bottom: 0%;
+       position: initial;
+    }
+}
+@media (min-width:769px) {
+    img{
+        width: 700px;
+        height: 300px;
     }
 }
